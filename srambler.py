@@ -7,15 +7,15 @@ from types import FloatType, StringType, IntType, BooleanType
 
 class Srambler(object):
 
-    ALPHAS = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+    ALPHAS = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
     NUMS   = "0123456789"
     BOOLS  = [True,False]
     NON_ALPHAS = [' ',',','.','$','-']
 
     TYPE_MAP = {FloatType:[NUMS,float],
-                     StringType:[ALPHAS,str],
-                     BooleanType:[BOOLS,bool],
-                     IntType:[NUMS,int]}
+                StringType:[ALPHAS,str],
+                BooleanType:[BOOLS,bool],
+                IntType:[NUMS,int]}
 
     def __init__(self, subject):
         self.subject = subject
