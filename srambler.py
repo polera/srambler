@@ -1,6 +1,7 @@
 __author__ = 'polera'
 __email__ = 'james@uncryptic.com'
 __since__ = '2011-10-17'
+
 from random import choice
 from types import FloatType, StringType, IntType, BooleanType
 
