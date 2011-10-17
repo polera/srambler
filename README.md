@@ -27,3 +27,7 @@ Put srambler in your Python path then:
     >>> Srambler(1620).srambled
     2280
 
+Status
+------
+Srambler is the product of an ad-hoc job, and is still very young.  Next up are unit tests and some enhanced
+functionality.  Feedback is welcome!
