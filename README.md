@@ -1,11 +1,10 @@
 Srambler
 ========
-
 Srambler is a utility class to assist with tasks like sanitizing data for a developer DB or, for just
 scrambling strings/ints/floats/bools.
 
 Why is it called Srambler?
--------------------------
+--------------------------
 "Srambler" is how my four year old said the word "scrambler" when he was around 2 years old.  Also, Web 2.0 and
  marketing firms have conditioned me to spell things incorrectly.
 
@@ -31,5 +30,3 @@ Status
 ------
 Srambler is the product of an ad-hoc job (needed to sanitize some data before handing a SQL dump off via email),
 and is still very young.  Next up are unit tests and some enhanced functionality.
-
-Feedback is welcome!
