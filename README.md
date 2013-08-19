@@ -14,17 +14,16 @@ How do I use it?
 Put srambler in your Python path then:
 
     >>> from srambler import Srambler
-    >>> Srambler("Jimmy Page").srambled
+    >>> Srambler.srambled("Jimmy Page")
     'YBNnm seua'
-    >>> Srambler("867-5309").srambled
+    >>> Srambler.srambled("867-5309")
     '949-1209'
-    >>> Srambler(True).srambled
-    True
-    >>> Srambler(True).srambled
-    False
-    >>> Srambler("$33.49").srambled
+
+I realize it may become tedious to type srambled over and over again.  So, you could also do it this way:
+    >>> from srambler import scramble
+    >>> scramble("$33.49")
     '$86.13'
-    >>> Srambler(1620).srambled
+    >>> scramble(1620)
     2280
 
 Status
