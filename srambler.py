@@ -3,7 +3,6 @@ __email__ = 'james@uncryptic.com'
 __since__ = '2011-10-17'
 
 from random import choice
-from types import FloatType, StringType, IntType, BooleanType
 
 
 class Srambler(object):
@@ -13,10 +12,10 @@ class Srambler(object):
     BOOLS = [True, False]
     NON_ALPHAS = [' ', ',', '.', '$', '-']
 
-    TYPE_MAP = {FloatType: [NUMS, float],
-                StringType: [ALPHAS, str],
-                BooleanType: [BOOLS, bool],
-                IntType: [NUMS, int]}
+    TYPE_MAP = {float: [NUMS, float],
+                str: [ALPHAS, str],
+                bool: [BOOLS, bool],
+                int: [NUMS, int]}
 
     @staticmethod
     def srambled(subject):
