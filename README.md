@@ -20,6 +20,7 @@ Put srambler in your Python path then:
     '949-1209'
 
 I realize it may become tedious to type srambled over and over again.  So, you could also do it this way:
+
     >>> from srambler import scramble
     >>> scramble("$33.49")
     '$86.13'
